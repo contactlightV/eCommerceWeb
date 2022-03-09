@@ -1,0 +1,22 @@
+@use 'vars';
+
+.content {
+    padding: 70px;
+    text-align: center;
+}
+
+.content :nth-child(1) {
+    font-size: 48px;
+}
+
+.content :nth-child(2) {
+    font-size: 96px;
+    font-weight: bold;
+    margin-top: -25px;
+}
+
+.content :nth-child(3) {
+    font-size: 24px;
+    margin-left: 1px;
+    margin-top: -25px;
+}
